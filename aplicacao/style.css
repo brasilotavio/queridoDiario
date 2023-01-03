@@ -1,0 +1,273 @@
+.esqueleto { /* para tag body */
+    padding:0;
+    border:0;
+    margin-left: 0 auto; 
+    margin-right: 0 auto;
+    overflow: hidden; 
+}
+
+.esqueletoRolagem { /* para tag body */
+    padding:0;
+    border:0;
+    margin-left: 0 auto; 
+    margin-right: 0 auto;
+}
+
+* {
+    margin: 0;
+}
+
+/* ///////////////////////////////////////////////////*/
+
+.noDecoration {
+    text-decoration: none;
+}
+
+model-viewer {
+    position: relative;
+}
+
+h1 { /* titulo */
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 200;
+    font-size: larger;
+}
+
+h4 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+
+.inputPadrao{
+    width: 100%; /* medidas percentuais */
+    height: 10%; /* medidas percentuais */
+    border: none;
+    text-align: center;
+}
+
+/* ///////////////////////////////////////////////////*/
+
+.centralizar {
+    display: block; /* centralizar */
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    
+}
+
+.botaoGenerico {
+    width: 20%; /* medidas percentuais */
+    height: 0.9cm;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    display: block; /* centralizar */
+    margin-left: auto; 
+    margin-right: auto; 
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+.botaoGenerico:hover { /* quando o cursor está sobre */
+    color: rgb(132,171,176);
+}
+
+.botaoLogar{
+    display: block;  /* centralizar */
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; /* medidas percentuais */
+    height: 8%; /* medidas percentuais */
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    transition-delay: 0.3s; /* animacao */
+    transition-duration: 0.3s;
+}
+
+.botaoLogar:hover { /* quando o cursor está sobre */
+    background-color: rgb(154,184,182);
+    color: white;
+}
+
+.botaoCadastrar {
+    display: block;  /* centralizar */
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; /* medidas percentuais */
+    height: 8%; /* medidas percentuais */
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    transition-delay: 0.3s; /* animacao */
+    transition-duration: 0.3s;
+}
+
+.botaoCadastrar:hover { /* quando o cursor está sobre */
+    background-color: rgb(193,204,188);
+    color: white;
+}
+
+.apresentacao { 
+    width: auto;
+    height: 50%;
+    background-image: url("../backgrounds/azul.jpg");
+}
+
+.apresentacaoUsuario { 
+    width: auto;
+    height: 50%;
+    background-image: url("../backgrounds/azul.jpg");
+    border-radius: 50px 15px;
+}
+
+.textoApresentacao {
+    position: relative;
+    top: 30%;
+    transform: translateY(-20%); 
+    transform: translateX(10%);
+}
+
+.tituloApresentacao {
+    position: relative;
+    top: 25%;
+}
+
+@font-face {
+    font-family: Quintaras;
+    src: url("../fontes/quintaras/Quintaras.ttf");
+}
+
+/* ///////////////////////////////////////////////////*/
+
+.dianaLogin {
+    width: 30%;
+    height: 30%;
+    display: block;  /* centralizar */
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: -80px;
+}
+
+.apresentacaoLogin { 
+    height: 900px;
+    background-image: url("../backgrounds/azul.jpg");
+}
+
+
+
+.botaoMenu {
+    display: block;  /* centralizar */
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 30px;
+    border-color: rgb(154,184,182);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    transition-delay: 0.1s; /* animacao */
+    transition-duration: 0.3s;
+    box-shadow: none;
+    width: 30%;
+}
+
+.botaoMenu:hover { /* quando o cursor está sobre */
+    background-color: rgb(193,204,188);
+    color: white;
+}
+
+
+.botaoEscrever {
+    width: 6.7cm;
+    height: 6cm;
+    border-radius: 50%;
+    border: 0.1cm solid black;
+    box-shadow:2cm;
+    background-color: rgb(255, 255, 255);
+    display: block;  /* centralizar */
+    margin-left: auto; 
+    margin-right: auto; 
+    background-image: url("../icones/teste.png");
+    transition-delay: 0.1s; /* animacao */
+    transition-duration: 0.3s;
+}
+
+.botaoEscrever:hover {
+    background-color: rgb(193,204,188);
+}
+
+.botaoAcessar {
+    width: 6.7cm;
+    height: 6cm;
+    border-radius: 50%;
+    border: 0.1cm solid black;
+    box-shadow:2cm;
+    background-color: rgb(255, 255, 255);
+    display: block;  /* centralizar */
+    margin-left: auto; 
+    margin-right: auto; 
+    background-image: url("../icones/livro.png");
+    transition-delay: 0.1s; /* animacao */
+    transition-duration: 0.3s;
+}
+
+.botaoAcessar:hover {
+    background-color: rgb(193,204,188);
+}
+
+.botaoLimpar {
+    width: 6.7cm;
+    height: 6cm;
+    border-radius: 50%;
+    border: 0.1cm solid black;
+    box-shadow:2cm;
+    background-color: rgb(255, 255, 255);
+    display: block;  /* centralizar */
+    margin-left: auto; 
+    margin-right: auto; 
+    background-image: url("../icones/borracha.png");
+    transition-delay: 0.1s; /* animacao */
+    transition-duration: 0.3s;
+}
+
+.botaoLimpar:hover {
+    background-color: rgb(193,204,188);
+}
+
+
+
+
+
+
+
+@media (max-width: 1500px) {
+    .esqueleto {
+        display:inline-block;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .textoApresentacao, .tituloApresentacao {
+        opacity: 0;
+    }
+
+    .dianaLogin {
+        width: 70%;
+        height: 70%;
+        padding-top: 30%;
+    }
+
+}

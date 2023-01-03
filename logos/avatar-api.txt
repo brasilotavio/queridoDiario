@@ -1,0 +1,6 @@
+https://api.readyplayer.me/v1/avatars/63a469f741e0100506d4ffcb.glb
+
+TENTAR:
+
+<model-viewer src="../logos/63a469f741e0100506d4ffcb.glb"> </model-viewer>
+

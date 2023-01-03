@@ -1,0 +1,29 @@
+<?php
+include("conexao.php");
+
+$email = $_POST['email'];
+$senha = $_POST['senha'];
+
+$verificar = "SELECT * FROM queridodiario WHERE email='$email' and senha='$senha'";
+$resposta = $conn->query($verificar);
+
+if($resposta->num_rows > 0) {
+    while ($row = $resposta->fetch_assoc()) {
+        $nome = $row['nome'];
+        $id = $row['id'];
+    }
+
+    session_start();
+    $_SESSION['nome'] = $nome;
+    $_SESSION['email'] = $email;
+    $_SESSION['senha'] = $senha;
+    $_SESSION['id'] = $id;
+
+    header("location: usuario.php");
+}
+
+else {
+    header("location: erroLogin.php");
+}
+
+?>
