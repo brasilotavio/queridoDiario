@@ -1,5 +1,7 @@
 # Querido Diário
 
+https://queridodiari0.000webhostapp.com/index.php
+
 ### Assistir ao vídeo de utilização do site:
 //Watch the website usage video: 
 
