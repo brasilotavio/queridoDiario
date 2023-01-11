@@ -12,12 +12,8 @@
 </head>
 <body class="esqueletoRolagem">
     <?php 
-    use function MongoDB\BSON\toJSON;
-    session_start();
-    $nome = $_SESSION['nome'];
-    $email = $_SESSION['email'];
-    $senha = $_SESSION['senha'];
-    $id = $_SESSION['id'];
+    
+    $nome = $_COOKIE["nome"];
 
     ?>
 

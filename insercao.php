@@ -19,11 +19,10 @@ $resposta = $conn->query($verificar);
     }
 
 
-    session_start();
-    $_SESSION['nome'] = $nome;
-    $_SESSION['email'] = $email;
-    $_SESSION['senha'] = $senha;
-    $_SESSION['id'] = $id;
+    setcookie("nome", $nome, time()+3600);
+    setcookie("email", $email, time()+3600);
+    setcookie("senha", $senha, time()+3600);
+    setcookie("id", $id, time()+3600);
 
     header("location: usuario.php");
 

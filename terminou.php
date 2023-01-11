@@ -15,8 +15,7 @@
     <?php
     $escrita = $_POST['escrita'];
 
-    session_start();
-    $id = $_SESSION['id'];
+    $id = $_COOKIE["id"];
 
     $diario = "diarios/" . $id . ".txt"; 
 
