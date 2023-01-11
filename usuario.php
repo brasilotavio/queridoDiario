@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página do Usuário</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../logos/queridodiario-branca" type="image/x-icon">
+    <link rel="shortcut icon" href="logos/queridodiario-branca" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body class="esqueletoRolagem">
-
-    <?php
+    <?php 
     use function MongoDB\BSON\toJSON;
     session_start();
     $nome = $_SESSION['nome'];
@@ -57,7 +56,7 @@
     <h4>Escrever nova página</h4>
 
   <a href="escrever.php">
-      <div class="botaoEscrever">
+      <div class="botaoEscrever centralizar">
       </div>
   </a>
 
@@ -66,7 +65,7 @@
   <h4>Acessar meu Diário</h4>
 
   <a href="acessarDiario.php">
-      <div class="botaoAcessar">
+      <div class="botaoAcessar centralizar">
       </div>
   </a>
 
@@ -75,14 +74,14 @@
   <h4>Limpar Diário</h4>
 
   <a href="confirmar.php">
-      <div class="botaoLimpar">
+      <div class="botaoLimpar centralizar">
       </div>
   </a>
 
   <br><br><br><br>
 
   <a href="index.html" class="noDecoration">
-      <button class="botaoGenerico">
+      <button class="botaoGenerico centralizar">
             Sair
         </button>
   </a>
