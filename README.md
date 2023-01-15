@@ -1,3 +1,4 @@
 # Querido Diário
 
-https://queridodiari0.000webhostapp.com/index.php
+
+https://queridodiari0.000webhostapp.com/
